@@ -1,0 +1,39 @@
+a{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8baccd;
+    
+    border-width: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 25px;
+    margin: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    list-style: none;
+    /*tirar o sublinhado dos links*/
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #6f8f9f;
+    color: #fff;
+    transition: 0.5s;
+}
+
+ul {
+    margin: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    margin-bottom: 30px;
+}

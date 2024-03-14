@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+.app {
+    display: flex;
+    font-family: "Cormorant Upright", sans-serif;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(139, 139, 222);
+}
